@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinteria</title>
-    <!-- tailwin and daisyUI cdn -->
+    <!-- tailwind and daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -24,7 +24,7 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-    <header class="md:container md:mx-auto mx-8">
+    <header class="md:container md:mx-auto mr-8">
         <!-- nav part -->
          <nav>
             <div class="navbar bg-base-100">
@@ -48,18 +48,7 @@
                       </div>
                       <div class="dropdown">
                           <div tabindex="0" role="button" class="btn lg:hidden">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
+                            <i class="fa-solid fa-bars h-5 w-5 flex justify-center items-center"></i>
                           </div>
                           <ul
                             tabindex="0"
@@ -76,7 +65,16 @@
          </nav>
 
          <!-- banner part -->
-          <div></div>
+          <div>
+            <div class="text-center my-5">
+                <img class="mx-auto" src="assets/banner.png" alt="">
+                <h1 class="sm:text-5xl text-2xl font-extrabold sm:font-bold px-3 pb-5 sm:pb-10 pt-5">A barn house of this design has <br> a striking appearance</h1>
+                <p class="text-base font-lg px-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+              </div>
+              <div class="text-center my-5 flex justify-center">
+                <a class="btn bg-[#c9f09d] font-bold text-base rounded-full w-7/12 sm:w-56 mx-auto">View Details<i class="fa-solid fa-arrow-right bg-[#ABEF5F] h-6 w-6 text-black text-sm -rotate-45 rounded-full flex justify-center items-center"></i></a>
+              </div>
+          </div>
     </header>
     <!-- main section -->
     <main></main>
