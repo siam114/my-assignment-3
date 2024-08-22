@@ -22,11 +22,11 @@
         }
     </style>
 </head>
-<body class="font-manrope">
+<body class="font-manrope overflow-x-hidden">
     <!-- header section -->
     <header class="md:container md:mx-auto ">
       <!-- nav part -->
-       <nav class="mr-10">
+       <nav class="mx-auto">
           <div class="navbar bg-base-100">
               <div class="navbar-start">    
                 <a class="btn text-[#212121] btn-ghost text-xl font-bold"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] h-6 w-6 text-black text-sm -rotate-45 rounded-full flex justify-center items-center"></i>Rinterio</a>
@@ -52,7 +52,8 @@
                 </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-0 text-left shadow">
+                  class="menu right-0 absolute menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 py-0 pl-1 pr-2
+                   text-left shadow">
                   <li><a>Home</a></li>
                   <li><a>Services</a></li>
                   <li><a>Portfolio</a></li>
@@ -85,13 +86,13 @@
         <section class="sm:container mx-auto justify-center sm:flex">
          
           <!-- content part -->
-           <div class="sm:w-2/5 sm:h-5/6 flex-1 space-y-5 justify-center px-5">
-               <div>
+           <div class="sm:w-2/5 sm:h-5/6 flex-1 space-y-5 justify-center items-center px-5">
+               <div class="flex sm:block justify-center">
                 <img class="pb-4 pl-1 hidden sm:block" src="./assets/Vector.png" alt="">
                 <a class="bg-[#FFFFFF] px-3 py-1 text-sm font-bold rounded-full" href=""><i class="fa-solid fa-arrow-right pr-1"></i>About Us</a>
                </div>
-            <h3 class="sm:text-4xl text-3xl mx-auto  font-bold text-[#212121]">We design thoughtful, <br> liveable spaces</h3>
-            <p class="text-base font-lg pb-6">The barn house captivates with its blend  of rustic charm and <br>
+            <h3 class="sm:text-4xl text-3xl mx-auto text-center sm:text-left font-bold text-[#212121]">We design thoughtful, <br> liveable spaces</h3>
+            <p class="text-base text-center sm:text-left font-lg pb-6">The barn house captivates with its blend  of rustic charm and <br>
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
               <!-- card part -->
