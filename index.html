@@ -80,7 +80,7 @@
     <!-- main section -->
     <main>
       <!-- 2nd part -->
-       <div class="bg-[#b3afaf3d] pt-16">
+       <div class="bg-[#b3afaf3d] pt-5 sm:pt-16">
 
         <!-- about section -->
         <section class="sm:container mx-auto justify-center sm:flex">
@@ -97,16 +97,16 @@
 
               <!-- card part -->
               <div class="sm:block space-y-6">
-                <div class="flex justify-start items-center gap-5  sm:h-1/5 sm:w-5/6 shadow-2xl bg-[#FFFFFF] px-5 py-8 rounded-2xl">
-                  <img src="./assets/commercial.png" alt="">
+                <div class="flex justify-start sm:items-center gap-5  sm:h-1/5 sm:w-5/6 shadow-2xl bg-[#FFFFFF] px-5 py-8 rounded-2xl">
+                  <img class="h-1/2 w-[15%] sm:w-fit" src="./assets/commercial.png" alt="">
                   <div>
                     <h4 class="font-bold text-[#212121] text-lg pb-2">Commercial</h4>
                     <p  class="text-sm font-lg">The barn house captivates with its blend <br> of rustic charm and modern.</p>
                   </div>
                 </div>
   
-                <div class="flex justify-start items-center gap-5  sm:h-1/5 sm:w-5/6 shadow-2xl bg-[#FFFFFF] px-5 py-8 rounded-2xl">
-                  <img src="./assets/residential.png" alt="">
+                <div class="flex justify-start sm:items-center gap-5  sm:h-1/5 sm:w-5/6 shadow-2xl bg-[#FFFFFF] px-5 py-8 rounded-2xl">
+                  <img class="h-1/2 w-[15%] sm:w-fit" src="./assets/residential.png" alt="">
                   <div>
                     <h4 class="font-bold text-[#212121] text-lg pb-2">Residential</h4>
                     <p  class="text-sm font-lg">The barn house captivates with its blend <br> of rustic charm and modern.</p>
@@ -117,13 +117,13 @@
            </div>
 
            <!-- img part-->
-            <div class="flex-1 sm:h-5/6 p-5">
-              <img src="./assets/Rectangle.png" alt="">
+            <div class="h-full w-full flex-1 sm:h-5/6 p-5">
+              <img class="sm:w-full sm:h-full w-96 h-80" src="./assets/Rectangle.png" alt="">
             </div>
          </section>
 
          <!-- review section -->
-          <section class="sm:mx-auto mx-5 sm:w-9/12 rounded-xl bg-[#FFFFFF] mt-20 sm:gap-10  sm:flex justify-center">
+          <section class="sm:mx-auto mx-5 sm:w-9/12 rounded-xl bg-[#FFFFFF] mt-5 sm:mt-20 sm:gap-10  sm:flex justify-center">
             <div class="text-center p-10">
               <i class="fa-regular fa-message text-lg"></i>
               <h4 class="text-3xl font-bold">235+</h4>
@@ -147,7 +147,7 @@
           </section>
 
          <!-- work process section -->
-          <section class="pt-20  px-5">
+          <section class="sm:py-20 py-5 px-5">
               <div class="text-center space-y-4">
                 <a class="bg-[#FFFFFF] px-3 py-1 text-sm font-bold rounded-full" href=""><i class="fa-solid fa-arrow-right pr-1"></i>How we works</a>
                 <h3 class="sm:text-4xl text-3xl mx-auto text-center font-bold pb-3 text-[#212121]">Our Works Process</h3>
@@ -180,9 +180,56 @@
           </section>
        </div>
 
+       <!-- our latest portfolio -->
+        <section class="container bg-[#b3afaf3d] sm:bg-[#FFFFFF] sm:mx-auto sm:pb-24">
+          <!-- content part -->
+          <div>
+            <div class="text-center space-y-5 p-2 sm:pt-20">
+              <a class="bg-[#cdf1a4] px-3 py-1 text-sm font-bold rounded-full" href=""><i class="fa-solid fa-arrow-right pr-1"></i>Explore our Latest works</a>
+              <h2 class="text-3xl sm:text-4xl px-5 font-extrabold text-[#212121]">Our Latest Portfolio</h2>
+              <p class="text-base font-lg px-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+             </div>
+          </div>
+
+          <!-- card part -->
+          <div class="grid grid-cols-1 sm:grid-cols-12 sm:grid-rows-2 gap-5 pt-10 px-5">
+
+           <div class= "w-full px-5 py-5 gap-5 bg-white sm:col-span-8 sm:flex items-center overflow-hidden rounded-lg shadow-lg sm:shadow-none sm:border p-4">
+              <img src="./assets/img1.png" alt="House 1" class="rounded-lg w-full sm:w-fit">
+              <div class="sm:px-1 pt-2 sm:pt-0">
+                <h2  class="text-xl font-bold pb-5">Commercial</h2>
+                <p class="text-gray-600 pb-3">The barn house captivates with its blend  of rustic charm and <br>  
+                 modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <a href="#" class="text-black gap-1 font-bold text-lg inline-flex items-center">View Details<i class="fa-solid fa-arrow-right bg-[#ABEF5F] h-6 w-6 text-black text-sm -rotate-45 rounded-full flex justify-center items-center"></i></a>
+              </div>
+
+          </div>
+  
+          <div class="h-fit bg-white rounded-lg sm:col-span-4 shadow-lg sm:shadow-none sm:border">
+              <img src="./assets/img2.png" alt="House 2" class="rounded-lg w-full sm:h-full px-5 py-5">
+          </div>
+
+          <div class="h-fit px-5 py-5 sm:col-span-3 bg-white rounded-lg shadow-lg sm:shadow-none sm:border p-4">
+            <img src="./assets/img3.png" alt="House 3" class="rounded-lg sm:h-full w-full ">
+          </div>
+
+          <div class="w-full bg-white gap-5  sm:col-span-6 sm:flex items-center overflow-hidden rounded-lg shadow-lg sm:shadow-none sm:border p-4">
+            <img src="./assets/img4.png" alt="House 1" class="rounded-lg w-full sm:w-fit">
+            <div class="sm:px-3 pt-2 sm:pt-0">
+             <h2 class="text-xl font-bold pb-5">Commercial</h2>
+             <p class="text-gray-600 pb-3">The barn house captivates with its blend  of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             <a href="#" class="text-black gap-1 font-bold text-lg inline-flex items-center">View Details<i class="fa-solid fa-arrow-right bg-[#ABEF5F] h-6 w-6 text-black text-sm -rotate-45 rounded-full flex justify-center items-center"></i></a>
+           </div>
+          </div>
+
+          <div class="h-fit sm:col-span-3 bg-white rounded-lg shadow-lg sm:shadow-none sm:border p-4">
+            <img src="./assets/img5.png" alt="House 5" class="rounded-lg sm:h-full w-full">
+           </div>
+        </section>
 
       <!-- Article and news section -->
-       <section class="bg-[#b3afaf3d] py-20">
+       <section class="bg-[#b3afaf3d] py-5 sm:py-20">
         <!-- content -->
          <div class="text-center space-y-5">
           <a class="bg-[#cdf1a4] px-3 py-1 text-sm font-bold rounded-full" href=""><i class="fa-solid fa-arrow-right pr-1"></i>Rinterio News</a>
@@ -291,11 +338,11 @@
         </section>
 
         <!-- discuss next project -->
-         <section class="pb-20 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover">
+         <section class="py-5 sm:pb-20 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover">
           <!-- content part -->
           <div class="text-center space-y-5 p-2 sm:p-20">
             <a class="bg-[#cdf1a4] px-3 py-1 text-sm font-bold rounded-full" href=""><i class="fa-solid fa-arrow-right pr-1"></i>Let’s Connect</a>
-            <h2 class="text-2xl sm:text-4xl px-5 font-extrabold text-[#212121]">Let’s Discuss Next Project</h2>
+            <h2 class="text-3xl sm:text-4xl px-5 font-extrabold text-[#212121]">Let’s Discuss Next Project</h2>
             <p class="text-base font-lg px-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
            </div>
 
